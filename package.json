@@ -1,10 +1,10 @@
 {
   "name": "dojo_escrevendo-no-celular",
   "version": "1.0.0",
-  "description": "Problema utilizado: [Escrevendo no Celular](http://dojopuzzles.com/problemas/exibe/escrevendo-no-celular/ \"DojoPuzzles\")",
-  "main": "index.js",
+  "description": "Problema utilizado para coding dojo: [Escrevendo no Celular]",
+  "main": "escrevendo-celular.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
