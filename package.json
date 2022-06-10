@@ -1,0 +1,23 @@
+{
+  "name": "dojo_escrevendo-no-celular",
+  "version": "1.0.0",
+  "description": "Problema utilizado: [Escrevendo no Celular](http://dojopuzzles.com/problemas/exibe/escrevendo-no-celular/ \"DojoPuzzles\")",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ptcmariano/dojo_escrevendo-no-celular.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ptcmariano/dojo_escrevendo-no-celular/issues"
+  },
+  "homepage": "https://github.com/ptcmariano/dojo_escrevendo-no-celular#readme",
+  "devDependencies": {
+    "jest": "^28.1.1"
+  }
+}
