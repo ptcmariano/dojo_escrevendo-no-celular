@@ -1,4 +1,4 @@
-function escrevendo_celular(caracter) {
+function escrevendo_celular(caracter='') {
     const teclado = {
         "ABC": "2",
         "DEF": "3",
@@ -10,8 +10,11 @@ function escrevendo_celular(caracter) {
         "VWXYZ": "9"
     }
     let resultado = ''
-    for (const tecla in teclado) {
-        resultado += tecla.indexOf(caracter) >= 0 ? teclado[tecla] : '' 
+    for (let i = 0; i < caracter.length; i++) {
+        for (const tecla in teclado) {
+            const letra = caracter[i];
+            resultado += tecla.indexOf(letra) >= 0 ? teclado[tecla] : ''
+        }
     }
     return resultado;
 }
